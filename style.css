@@ -59,14 +59,14 @@ h2, h3 {
 
 .flexbox > .article-card {
   background-color: white;
-  width: 66%;
+  width: 680px;
   margin: 24px 24px;
   padding: 16px 16px;
 }
 
 .flexbox > .sidebar {
   background-color: white;
-  width: 99%;
+  width: 303px;
   margin: 10px;
   border-left: 1px solid rgba(242, 242, 242, 1);
   border-left-width: 1px;
@@ -133,35 +133,34 @@ i:hover {
 }
 
 @media (max-width: 900px) {
-  .flex-container {
+  .flexbox {
     flex-direction: column;
+    margin: 0 auto;
   }
-
   .container {
     width: 850px;
     margin: 0 auto;
   }
-  .article-card {
-    width: 100%;
-  }
 }
 
 @media (max-width: 720px) {
+  .flexbox {
+    flex-direction: column;
+    margin: 0 auto;
+  }
   .container {
     width: 680px;
     margin: 0 auto;
   }
-  .article-card {
-    width: 100%;
-  }
 }
 
 @media (max-width: 540px) {
+  .flexbox {
+    flex-direction: column;
+    margin: 0 auto;
+  }
   .container {
     width: 500px;
     margin: 0 auto;
-  }
-  .article-card {
-    width: 100%;
   }
 }
